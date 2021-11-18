@@ -1,4 +1,4 @@
-
+//bridge-file-version: #0
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -103,6 +103,7 @@
 			}
 		},
 		"components": {
+			"minecraft:is_hidden_when_invisible": {},
 			"minecraft:type_family": {
 				"family": [
 					"skeletonhorse",
