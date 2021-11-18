@@ -27,6 +27,25 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/skeleton_horse.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:set_trap",
+				"minecraft:spring_trap"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:skeleton_horse"
+			],
+			"animation_references": [],
+			"families": [
+				"skeletonhorse",
+				"undead",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	}
 }
