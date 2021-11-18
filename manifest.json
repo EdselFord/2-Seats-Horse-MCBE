@@ -3,14 +3,14 @@
 	"header": {
 		"name": "pack.name",
 		"description": "pack.description",
-		"uuid": "b4d8d244-a8cc-4293-9cb9-bb9c54e11614",
+		"uuid": "0f83ad91-8fd7-413e-a8a5-e115dec91fd3",
 		"version": [3, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "b0975f7c-2622-4885-a295-ad2ad28ae847",
+			"uuid": "820d8508-1fbe-44da-95b2-1de3bb23b392",
 			"version": [3, 0, 0]
 		}
 	]
