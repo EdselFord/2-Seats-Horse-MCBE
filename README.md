@@ -1,5 +1,5 @@
 
-# 2 Seats Horse
+# 2 Seats Horse ![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/total)
 Do you want to ride a horse with your friends? But you only have 1 horse. Don't worry, this Addon can solve your problem!. This addon allows you to ride a horse with 2 players. you can ride it as easily as you ride a boat. and also can be played on mobile, pc, and console versions. Made by Edsel.
 
 ## **Features**
@@ -14,6 +14,7 @@ it's very easy, to be able to ride a horse with 2 people, first, install this ad
 There are 2 seats on the horse, driver and passenger seats. you can only control the horse in the driver seat.
 
 Some gameplay with this addon:
+
 ![](https://api.mcpedl.com/storage/submissions/109236/images/2-seats-on-horse-116--117_2.png)
 ![](https://api.mcpedl.com/storage/submissions/109236/images/2-seats-on-horse-116--117_2.gif)
 ### Mule and Donkey - Update v3.0.0
