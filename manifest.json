@@ -1,17 +1,17 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
-		"uuid": "0f83ad91-8fd7-413e-a8a5-e115dec91fd3",
-		"version": [3, 0, 0],
+		"name": "2 Seats Horse v4",
+		"description": "This addon allows 2 players to ride a 1 horse. Made by §9Edsel §ftwitter: §b@edzelfrd. §fnew update: zombie horse can be ridden and have 2 seats!",
+		"uuid": "58db007f-6ad6-430b-94eb-2932744e9ee8",
+		"version": [4, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "820d8508-1fbe-44da-95b2-1de3bb23b392",
-			"version": [3, 0, 0]
+			"uuid": "9415a653-08d9-49da-b85a-7856c02829dd",
+			"version": [4, 0, 0]
 		}
 	]
 }
