@@ -1,5 +1,9 @@
 
-# 2 Seats Horse ![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v3.0.0/total) ![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v4.0.0/total)
+# 2 Seats Horse 
+![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v3.0.0/total) 
+![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v4.0.0/total)
+![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v4.1.0/total)
+
 Do you want to ride a horse with your friends? But you only have 1 horse. Don't worry, this Addon can solve your problem!. This addon allows you to ride a horse with 2 players. you can ride it as easily as you ride a boat. and also can be played on mobile, pc, and console versions. Made by Edsel.
 
 ## **Features**
