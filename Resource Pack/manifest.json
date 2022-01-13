@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "2 Seats Horse v4.1 Resource Pack",
+    "description": "This addon allows 2 players to ride a 1 horse. Made by §9Edsel §ftwitter: §b@edzelfrd. §fnew update: fix zombie horse action bar when get riding",
+    "uuid": "d3969d8a-3f16-41a8-b8a5-902e079764f8",
+    "version": [4, 1, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5197925e-9f89-4b68-b4b6-88ac47fac7df",
+      "version": [4, 1, 0]
+    }
+  ]
+}
