@@ -1,23 +1,26 @@
 {
   "format_version": 2,
+  "metadata": {
+    "authors": ["Edsel Mustapa"]
+  },
   "header": {
-    "name": "2 Seats Horse v4.1 Behavior Pack",
-    "description": "This addon allows 2 players to ride a 1 horse. Made by §9Edsel §ftwitter: §b@edzelfrd. §fnew update: fix zombie horse action bar when get riding",
-    "uuid": "58db007f-6ad6-430b-94eb-2932744e9ee8",
-    "version": [4, 1, 0],
+    "name": "2 Seats Horse v5 Behavior Pack",
+    "description": "Made by §9Edsel §ftwitter: §b@edzelfrd. §fnew update: Llama now have 2 seats",
+    "uuid": "0e483163-cc1f-485c-969a-d9dba75c2ea0",
+    "version": [5, 0, 0],
     "min_engine_version": [1, 16, 0]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "9415a653-08d9-49da-b85a-7856c02829dd",
-      "version": [4, 1, 0]
+      "uuid": "399d2a22-7352-429a-ae14-f17c966f7fec",
+      "version": [5, 0, 0]
     }
   ],
   "dependencies": [
     {
-      "uuid": "d3969d8a-3f16-41a8-b8a5-902e079764f8",
-      "version": [4, 1, 0]
+      "uuid": "be0b414c-2ae7-4158-9923-065edf10b380",
+      "version": [5, 0, 0]
     }
   ]
 }
