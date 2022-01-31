@@ -1,8 +1,10 @@
 
 # 2 Seats Horse 
+![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/total)
 ![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v3.0.0/total) 
 ![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v4.0.0/total)
 ![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v4.1.0/total)
+![](https://img.shields.io/github/downloads/EdselFord/2-Seats-Horse-MCBE/v5.0.0/total)
 
 Do you want to ride a horse with your friends? But you only have 1 horse. Don't worry, this Addon can solve your problem!. This addon allows you to ride a horse with 2 players. you can ride it as easily as you ride a boat. and also can be played on mobile, pc, and console versions. Made by Edsel.
 
@@ -21,6 +23,8 @@ Some gameplay with this addon:
 
 ![](https://api.mcpedl.com/storage/submissions/109236/images/2-seats-on-horse-116--117_2.png)
 ![](https://api.mcpedl.com/storage/submissions/109236/images/2-seats-on-horse-116--117_2.gif)
+### Llama - Update v5.0.0
+![](https://api.mcpedl.com/storage/submissions/140716/images/2-seats-on-horse-v5--llama-update_2.png)
 ### Zombie Horse - Update v4.0.0
 ![image](https://user-images.githubusercontent.com/90502091/145660864-780e5324-6803-44ad-ab9e-9788f9b02f42.png)
 ### Mule and Donkey - Update v3.0.0
@@ -35,6 +39,7 @@ list of mobs that can be ridden by 2 people:
 -   Donkey
 -   Mule
 -   Zombie Horse
+-   Llama
 
 if you want another mob can be ridden by 2 people, tell me, I'll make it soon. and if you get a bug or something, please comment and I will fix it as soon as possible.
 
