@@ -4,17 +4,17 @@
     "authors": ["Edsel Mustapa"]
   },
   "header": {
-    "name": "2 Seats Horse v5 Resource Pack",
-    "description": "Made by §9Edsel §ftwitter: §b@edzelfrd. §fnew update: Llama now have 2 seats",
-    "uuid": "be0b414c-2ae7-4158-9923-065edf10b380",
-    "version": [5, 0, 0],
+    "name": "2 Seats Horse v6 Resource Pack",
+    "description": "Made by §9Edsel §ftwitter: §b@edzelfrd. §fnew update: Strider now can be ridden by 2 players. Known bug: only the passenger can control the walking direction of the strider by using the warped fungus on stick, so I put the passenger in front of the driver. If you want to control it, make sure the passengers have to get on the warden first, then you go up to the warden",
+    "uuid": "acad1044-c5d7-4b2b-857e-5b5deef7a407",
+    "version": [6, 0, 0],
     "min_engine_version": [1, 16, 0]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "3df09980-bbac-4720-8ac6-9005bd55141d",
-      "version": [5, 0, 0]
+      "uuid": "b89a72ac-e890-4648-8b52-14e71d45e2de",
+      "version": [6, 0, 0]
     }
   ]
 }
