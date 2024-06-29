@@ -1,11 +1,11 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:mule",
+      "spawn_category": "creature",
       "is_spawnable": true,
-      "is_summonable": true,
-      "is_experimental": false
+      "is_summonable": true
     },
 
     "component_groups": {
@@ -166,43 +166,26 @@
           "seats": [
             {
               "position": [0.0, 0.975, -0.2],
-              "min_rider_count": 0,
-              "max_rider_count": 1
+              "max_rider_count": 1,
+              "min_rider_count": 0
             },
             {
-              "position": [0.0, 0.975, 0],
-              "min_rider_count": 2,
-              "max_rider_count": 2
-            },
-            {
-              "position": [0.0, 0.975, -0.6],
-              "min_rider_count": 2,
-              "max_rider_count": 2
-            }
+                "position": [0.0, 0.975, -0],
+                "max_rider_count": 2,
+                "min_rider_count": 2
+              },
+              {
+                "position": [0.0, 0.975, -0.6],
+                "max_rider_count": 2,
+                "min_rider_count": 2
+              }
           ]
         },
         "minecraft:inventory": {
           "inventory_size": 16,
           "container_type": "horse"
-        },
-        "minecraft:behavior.tempt": {
-          "priority": 5,
-          "speed_multiplier": 1.2,
-          "items": [
-            "apple",
-            "carrot",
-            "golden_apple",
-            "appleEnchanted",
-            "golden_carrot",
-            "carrotOnAStick",
-            "hay_block",
-            "sugar",
-            "bread",
-            "wheat"
-          ]
         }
       },
-
       "minecraft:mule_unchested": {
         "minecraft:interact": {
           "interactions": [
@@ -221,6 +204,11 @@
                       "test": "is_family",
                       "subject": "other",
                       "value": "player"
+                    },
+                    {
+                      "test": "is_sneak_held",
+                      "subject": "other",
+                      "value": false
                     }
                   ]
                 },
@@ -229,13 +217,87 @@
               },
               "use_item": true,
               "interact_text": "action.interact.attachchest"
+            },
+            {
+              "play_sounds": "armor.equip_generic",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_equipment",
+                      "subject": "self",
+                      "domain": "inventory",
+                      "operator": "not",
+                      "value": "saddle"
+                    },
+                    {
+                      "test": "has_equipment",
+                      "subject": "other",
+                      "domain": "hand",
+                      "value": "saddle"
+                    },
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneak_held",
+                      "subject": "other",
+                      "value": false
+                    }
+                  ]
+                },
+                "target": "self"
+              },
+              "equip_item_slot": "0",
+              "interact_text": "action.interact.saddle"
             }
           ]
         }
       },
 
       "minecraft:mule_chested": {
-        "minecraft:is_chested": {}
+        "minecraft:is_chested": {},
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "play_sounds": "armor.equip_generic",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_equipment",
+                      "subject": "self",
+                      "domain": "inventory",
+                      "operator": "not",
+                      "value": "saddle"
+                    },
+                    {
+                      "test": "has_equipment",
+                      "subject": "other",
+                      "domain": "hand",
+                      "value": "saddle"
+                    },
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneak_held",
+                      "subject": "other",
+                      "value": false
+                    }
+                  ]
+                },
+                "target": "self"
+              },
+              "equip_item_slot": "0",
+              "interact_text": "action.interact.saddle"
+            }
+          ]
+        }
       },
 
       "minecraft:mule_saddled": {
@@ -341,6 +403,11 @@
         "priority": 1,
         "speed_multiplier": 1.2
       },
+      "minecraft:behavior.tempt": {
+        "priority": 5,
+        "speed_multiplier": 1.2,
+        "items": ["golden_apple", "appleEnchanted", "golden_carrot"]
+      },
       "minecraft:behavior.random_stroll": {
         "priority": 6,
         "speed_multiplier": 0.7
@@ -431,5 +498,3 @@
     }
   }
 }
-
-// Copyright (C) 2021 Edsel Mustapa.

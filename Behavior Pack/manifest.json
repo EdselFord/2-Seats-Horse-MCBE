@@ -4,23 +4,17 @@
     "authors": ["Edsel Mustapa"]
   },
   "header": {
-    "name": "2 Seats Horse v6 Behavior Pack",
+    "name": "2 Seats Horse v7 Behavior Pack",
     "description": "Made by §9Edsel §ftwitter: §b@edzelfrd. §fUpdate: Strider now can be ridden by 2 players. Known bug: only the passenger can control the walking direction of the strider by using the warped fungus on stick, so I put the passenger in front of the driver. If you want to control it, make sure the passengers have to get on the warden first, then you go up to the warden",
-    "uuid": "c7489c8c-2690-42cd-bdf1-88f1d729dd54",
-    "version": [6, 0, 0],
-    "min_engine_version": [1, 16, 0]
+    "uuid": "4af4654e-3328-4fe5-8b87-03677612215b",
+    "version": [7, 0, 0],
+    "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "89f73422-ff93-487c-a76e-50fc39adbf30",
-      "version": [6, 0, 0]
-    }
-  ],
-  "dependencies": [
-    {
-      "uuid": "acad1044-c5d7-4b2b-857e-5b5deef7a407",
-      "version": [6, 0, 0]
+      "uuid": "5477195a-46fd-4674-89c8-5fa0487ca622",
+      "version": [7, 0, 0]
     }
   ]
 }
